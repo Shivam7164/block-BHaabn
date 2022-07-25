@@ -1,0 +1,83 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+.container{
+    max-width: 1330px;
+    margin: 0 auto;
+    padding: 0 32px;
+}
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+.flex{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/* ############# header ############ */
+
+header{
+    background-color: rgb(34,41,70);
+    padding: 15px;
+    position: fixed;
+    width: 100%;
+}
+header .child1{
+    color: green;
+}
+header .child2 a{
+    text-decoration: none;
+    color: white;
+    margin-left: 20px;
+}
+header .child2 .gallery{
+    text-decoration: none;
+    color: green;
+}
+
+/* ############ main.father1 ######### */
+.father1{
+    padding: 50px 0px;
+    background-color: rgb(255,255,255);
+}
+.father1 .heading{
+    font-size: 35px;
+     text-align: center;
+}
+.father1 .heading{
+    margin-top: 50px;
+    margin-bottom: 20px;
+}
+
+.child3{
+  flex: 0 1 30%;
+  /* border: 2px solid red; */
+  margin: 1rem;
+}
+.child3 img{
+ width: 100%;
+ height: 100%;
+ border-radius: 10px;
+}
+.div{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+/* ############## footer ############# */
+ footer{
+    background-color: rgb(34,41,70);
+    padding: 25px;
+ }
+ footer .paragraph{
+    color: white;
+ }
+ footer nav a{
+    color: white;
+    margin-left: 20px;
+    font-size: 20px;
+ }
